@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+
+  img {
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 13px;
+  }
+}
